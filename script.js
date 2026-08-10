@@ -91,6 +91,7 @@ function gameLoop() {
   displayWords(wordsList);
   input.focus();
 }
+
 input.addEventListener("input", () => {
   if (!isTyping) {
     isTyping = true;
